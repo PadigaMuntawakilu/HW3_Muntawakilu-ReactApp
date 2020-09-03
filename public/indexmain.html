@@ -1,23 +1,28 @@
-import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week #3</title>
 
-function App() {
-  return (
-    <>
-
-
-
+    <!-- STYLING -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sample-wallpaper.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
         <a href="#">Hulk</a>
-        
+        <!-- Currently Active -->
         <a href="#" class="logo is-active">Mavel</a>
         <a href="#">Venom</a>
       </div>
     </nav>
 
-   
+    <!-- Introductory Content -->
     <header class="header">
       <div class="container">
         <h1 class="title">Mavel's Fearless</h1>
@@ -29,26 +34,24 @@ function App() {
           <input type="search" placeholder="Search" />
         </div>
 
-        
+        <!-- Sample Wallpaper -->
         <div class="sample-wallpaper">
-         
+          <!-- Wallpaper #1 -->
           <article class="wallpaper">
             <img src="./img/venom-1.jpg" alt="Wallpaper #1" class="wallpaper" />
           </article>
 
-          
+          <!-- Wallpaper #2 -->
           <article class="wallpaper">
             <img src="./img/hulk-1.jpg" alt="Wallpaper #1" class="wallpaper" />
           </article>
+
+          <!-- Wallpaper #3 -->
           <article class="wallpaper">
             <img src="./img/venom-2.jpg" alt="Wallpaper #1" class="wallpaper" />
           </article>
         </div>
       </div>
     </header>
-
-    </>
-  );
-}
-
-export default App; 
+  </body>
+</html>
